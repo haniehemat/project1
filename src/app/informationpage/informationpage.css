@@ -2,16 +2,14 @@
     text-align: right;
 }
 .wlc{
- background-color:rgb(69, 128, 130);
+ background-color:rgb(146, 195, 216);
     border-radius: 0.5em;
-    padding: 10px 25px;
-    margin: 15px 0;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     line-height: 2;
     text-align: center;
 }
 .p1{
-    background-color:rgb(168, 197, 198);
+    background-color:rgb(146, 195, 216);
     border-radius: 0.5em;
     padding: 10px 25px;
     margin: 15px 0;

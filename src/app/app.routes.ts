@@ -5,6 +5,7 @@ import { Education } from './education/education';
 import { Skills } from './skills/skills';
 import { NotFoundpage } from './not-foundpage/not-foundpage';
 import { Informationpage } from './informationpage/informationpage';
+import { Download } from './download/download';
 
 export const routes: Routes = [
     { path: 'main', component: Mainpage },
@@ -13,7 +14,8 @@ export const routes: Routes = [
     { path: 'skills', component: Skills },
     { path: 'NotFoundpage', component: NotFoundpage },
     { path: 'information', component: Informationpage },
-    { path: '', redirectTo: '/main', pathMatch: 'full' },
+        {path:'download',component:Download},
     { path: '**', redirectTo: '/NotFoundpage' }
 
-];
+]
+
