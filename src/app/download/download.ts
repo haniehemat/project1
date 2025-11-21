@@ -7,5 +7,14 @@ import { Component } from '@angular/core';
   styleUrl: './download.css',
 })
 export class Download {
+  download() {
+    const name = (document.getElementById('name') as HTMLInputElement).value;
+    const number = (document.getElementById('number') as HTMLInputElement).value;
+    const email = (document.getElementById('email') as HTMLInputElement).value;
+    const password = (document.getElementById('password') as HTMLInputElement).value;
+if(!name || !email || !password){
 
+}
+window.location.href="/education";
+  }
 }

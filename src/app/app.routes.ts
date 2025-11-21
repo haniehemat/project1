@@ -14,7 +14,7 @@ export const routes: Routes = [
     { path: 'skills', component: Skills },
     { path: 'NotFoundpage', component: NotFoundpage },
     { path: 'information', component: Informationpage },
-        {path:'download',component:Download},
+    { path: 'download', component: Download },
     { path: '**', redirectTo: '/NotFoundpage' }
 
 ]
