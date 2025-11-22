@@ -1,4 +1,9 @@
+
+body{
+    margin: 0;
+}
 .wlc{
+    width: 90pxpx;
     background-color:rgb(71, 127, 182);
     border-radius: 0.5em;
     padding: 10px 25px;
@@ -8,8 +13,9 @@
     text-align: center;
 }
 nav{
+ gap: 8px;
     background: color #f5f5f5;
-    border-radius: 1em;
+    border-radius: 0.5em;
     border:1px solid #0e0b0b;
     width:100%;
     display: flex;
@@ -18,17 +24,23 @@ nav{
     height: 60px;
 }
 nav a{
-    flex:1;
+
     text-decoration: none;
     color:rgb(12, 21, 21);
     text-align: center;
-    padding:6px 10px;
+    padding:6px 5px;
     margin:0 5px;
-    border-radius: 4em;
+    border-radius: 0.5em;
     font-size: larger;
     transition:0.2s;
 }
 nav a:hover{
     background-color: rgb(146, 195, 216);
     color: rgb(17, 13, 13);
+}
+.h1{
+    text-shadow: 1px 1px 1px black;
+}
+.divider{
+    flex: 1 1 auto;
 }

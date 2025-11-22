@@ -1,0 +1,68 @@
+
+.login {
+    width: 340px;
+    padding: 20px;
+    margin: 100px auto;
+    border: 1px solid;
+    border-radius: 8px;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.88);
+
+}
+
+.h {
+    margin: 1em;
+    display: flex;
+    align-items: center;
+}
+
+.h label {
+    width: 80px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.h input:hover {
+    border-color: rgb(146, 195, 216);
+}
+
+.h input {
+    flex: 1;
+    padding: 3px;
+}
+
+.h input.error {
+    border: 1px solid red;
+}
+
+button {
+    width: 100%;
+    padding: 5px;
+    border: none;
+    background-color: rgb(146, 195, 216);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.r {
+    width: 100%;
+    justify-content: center;
+    gap: 5px;
+    margin-bottom: 1.2em;
+    display: flex;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: small;
+}
+
+.message {
+    width: 100%;
+   height: 20px;
+   margin-top: 10px;
+    border: none;
+    background-color: rgb(217, 108, 108);
+    border-radius: 5px;
+    text-align: center;
+    font-size: small;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+button:disabled{
+    background-color: darkgray;
+}

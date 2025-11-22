@@ -1,0 +1,20 @@
+<div class="login">
+    <div class="h">
+        <label>name:</label>
+        <input [(ngModel)]="name" type="text" id="name">
+    </div>
+    <div class="h">
+        <label>password:</label>
+        <input [(ngModel)]="password" type="password" id="password">
+    </div>
+    <div class="r">
+        <input [(ngModel)]="remember" type="checkbox">
+        <label> remember me</label>
+    </div>
+    <button [disabled]="name=='' || password=='' " (click)="login()">login</button>
+    @if (message!='') {
+    <div class="message">
+        {{message}}
+    </div>
+    }
+</div>
